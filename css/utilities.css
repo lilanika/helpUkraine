@@ -1,0 +1,216 @@
+/* Utilities */
+
+.grey {
+    color: grey;
+}
+
+.width-100 {
+    width: 100% !important;
+}
+
+.icons {
+    font-size: 3rem;
+}
+
+.small {
+    font-size: 0.6rem;
+}
+
+
+/* Buttons */
+
+button {
+    font: inherit;
+}
+
+.btn {
+    display: in -block;
+    background: var(--grey-color);
+    color: #221e41;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    transition: opacity 0.2s ease-in;
+    out: none;
+    border: none;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.btn-primary,
+.bg-primary {
+    background: var(--primary-color);
+    color: black;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.btn-secondary,
+.bg-secondary {
+    background: var(--secondary-color);
+    color: #fff;
+}
+
+.btn-light,
+.bg-light {
+    background: var(--light-color);
+    color: #333;
+}
+
+.btn-grey,
+.bg-grey {
+    background: var(--grey-color);
+    color: #333;
+}
+
+
+/*
+.btn-white,
+.   bg-white  {
+    background: #fff;
+    color: #333;
+    /* border: rgb(228, 228, 228) solid 1px; 
+
+
+*/
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+
+/*border*/
+
+.b-radius {
+    border-radius: 0.3rem;
+    border-color: rgb(252, 247, 247);
+}
+
+
+/* Text Styles*/
+
+.text-primary {
+    color: var(--primary-color);
+}
+
+.text-dark {
+    color: var(--dark-color);
+}
+
+
+/* Padding all */
+
+.p {
+    padding: 0.5rem;
+}
+
+.p-1 {
+    padding: 1rem;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+
+.p-3 {
+    padding: 0rem;
+}
+
+
+/*  top and bottom*/
+
+.py {
+    padding: 0.5rem 0;
+}
+
+.py-1 {
+    padding: 1rem 0;
+}
+
+.py-2 {
+    padding: 2rem 0;
+}
+
+.py-3 {
+    padding: 3rem 0;
+}
+
+.pb {
+    padding-bottom: 1rem;
+}
+
+
+/* Margin */
+
+.m {
+    margin: 0.5rem;
+}
+
+.m-1 {
+    margin: 1rem;
+}
+
+.m-2 {
+    margin: 2rem;
+}
+
+.m-3 {
+    margin: 3rem;
+}
+
+.my {
+    margin: 0.5rem 0;
+}
+
+.my-1 {
+    margin: 1rem 0;
+}
+
+.my-2 {
+    margin: 2rem 0;
+}
+
+.my-3 {
+    margin: 3rem 0;
+}
+
+.my-5 {
+    margin: 5rem 0;
+}
+
+.my-1-bottom {
+    margin: 0 0 1rem 0;
+}
+
+.my-3-bottom {
+    margin: 0 0 3rem 0;
+}
+
+.my-3-top {
+    margin: 3rem 0 0 0 !important;
+}
+
+.my-5-top {
+    margin: 5rem 0 0 0 !important;
+}
+
+.my-1-top {
+    margin: 1rem 0 0 0;
+}
+
+
+/*
+CSS muss nach dem HTML-Code und dem JS-Aufruf eingefügt werden. Nur so wird der nachgeladene CSS-Code überschrieben.
+
+Color: Schriftfarbe
+Background: Hintergrundfarbe
+Hover/Focus: Veränderung bei Mauszeiger über dem Element
+*/

@@ -1,0 +1,41 @@
+   <div class="      bg-white    flexbox">
+                <h4 class="p p-summary">First accommodation and care in the arrival centre | BERLIN <br> Перше розміщення та догляд у центрі прибуття | БЕРЛІН
+                </h4>
+
+
+                <p class="p "> Куди піти, прибувши в Берлін <br> Where to go when arriving in Berlin </p>
+
+                <p class="p ">
+                    <a href="https://www.berlin.de/laf/ankommen/" target="_blank“" rel="noopener"> berlin.de <br><br></a> </p>
+
+
+                <p class="p ">
+                    Haus 2 <br> Oranienburger Str. 285 <br> 13437 Berlin
+                </p><br>
+
+                <a target="_blank" rel="noopener noreferrer" href="https://www.google.de/maps/place/Oranienburger+Str.+285,+13437+Berlin/@52.5834254,13.3273691,17z/data=!3m1!4b1!4m9!1m2!2m1!1sOranienburger+Str.+285!3m5!1s0x47a853901c63c753:0x399522bd808af369!8m2!3d52.5834254!4d13.3295578!15sChZPcmFuaWVuYnVyZ2VyIFN0ci4gMjg1kgERY29tcG91bmRfYnVpbGRpbmc"> 📍 Google Maps</a>
+                <a target="_blank" rel="noopener noreferrer" class=" btn btn-secondary my-3-top width-100 pulse " href=https://berlin-hilft.com/2022/02/25/ukraine-erste-unterbringung-und-versorgung-im-ankunftszentrum-berlin/ ">
+                    <p>berlin-hilft.com</p>
+                  </a>
+            </div>
+
+
+
+
+    <h2 class="helpUkraine">helpUkraine</h2>
+    <nav>
+
+        <div class="hamburger">
+
+            <div class=" 1"></div>
+            <div class=" 2"></div>
+            <div class=" 3"></div>
+        </div>
+        <ul class="nav-links">
+
+            <li><a href="/index.html">accommodation</a></li>
+            <li><a href="/transport.html">Transport</a></li>
+            <li><a href="/legal-support.html">Legal Support</a></li>
+            <li><a href="/other-links.html">other Links</a></li>
+        </ul>
+    </nav>
