@@ -3,6 +3,6 @@
 }
 
 .animation:hover {
-    transform: scale(0.99) translateY(-3px);
-    box-shadow: 0 10px 20px rgba(39, 42, 56, 0.2);
+    transform: scale(0.99) translateY(-1px);
+    /*box-shadow: 0 10px 20px rgba(39, 42, 56, 0.2); */
 }

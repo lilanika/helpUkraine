@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Poppins:ital,wght@0,400;0,700;0,800;0,900;1,700&display=swap');
 html {
-    /*--primary-color:  ar-gradient(to right,#313B47,#00C8AA);*/
+    /*--primary-color: ar-gradient(to right,#313B47,#00C8AA);*/
     /*darkmodus -toggle*/
     --primary: #b9bcbf;
     --secondary: #c2c2c2;
@@ -88,34 +88,34 @@ h4 {
 
 
 /*
-    /* Grids 
-    
-    .grid-layout {
-        display: grid;
-        grid-template-areas: 'one ' 'two' 'three' 'four ';
-        grid-gap: 1rem;
-    }
-    /*Grid-one 
-    
-    .grid-one {
-        grid-area: one;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        background-color: var(--secondary-color);
-    }
-    
-    .img-profile {
-        height: 10vh;
-        width: 100%;
-        border-radius: 80%;
-        opacity: 0.1;
-        z-index: -1;
-    }
-    
-    */
+  /* Grids 
+  
+  .grid-layout {
+  display: grid;
+  grid-template-areas: 'one ' 'two' 'three' 'four ';
+  grid-gap: 1rem;
+  }
+  /*Grid-one 
+  
+  .grid-one {
+  grid-area: one;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--secondary-color);
+  }
+  
+  .img-profile {
+  height: 10vh;
+  width: 100%;
+  border-radius: 80%;
+  opacity: 0.1;
+  z-index: -1;
+  }
+  
+  */
 
 .shape {
     grid-area: two;
@@ -126,7 +126,7 @@ h4 {
     padding: 2rem 1rem;
 }
 
-.bg-white {
+.bg-white animation {
     background: var(--card-color);
     margin: 1rem 0rem;
     padding: 2rem 1rem;
@@ -140,30 +140,30 @@ h4 {
 
 
 /* text 
-    
-    .grid-four {
-        grid-area: four;
-        border-radius: 0.5rem;
-    }
-    
-    .hiddenSuggestion {
-        color: rgb(143, 127, 255);
-        color: rgb(223, 146, 126);
-        font-weight: bold;
-        cursor: pointer;
-    }
-    
-    .grid-three h2,
-    .grid-four h2 {
-        margin-bottom: 1rem;
-    }
+  
+  .grid-four {
+  grid-area: four;
+  border-radius: 0.5rem;
+  }
+  
+  .hiddenSuggestion {
+  color: rgb(143, 127, 255);
+  color: rgb(223, 146, 126);
+  font-weight: bold;
+  cursor: pointer;
+  }
+  
+  .grid-three h2,
+  .grid-four h2 {
+  margin-bottom: 1rem;
+  }
 
-    */
+  */
 
 @media only screen and (max-width: 1100px) {
     .grid-layout {
         display: grid;
-        grid-template-areas: 'one  ' 'two  ' 'four ' 'three ';
+        grid-template-areas: 'one ' 'two ' 'four ' 'three ';
         grid-gap: 1rem;
     }
 }
@@ -182,20 +182,20 @@ h4 {
 
 
 /*
-        .grid-one .btn {
-            padding: 0.4rem 1rem;
-            font-size: 0.9rem;
-        }
-        .grid-one {
-            grid-gap: 1rem;
-        }
-        /* profile picture 
-        .grid-one {
-            padding: 0.5rem;
-        }
-        
+  .grid-one .btn {
+ padding: 0.4rem 1rem;
+ font-size: 0.9rem;
+  }
+  .grid-one {
+ grid-gap: 1rem;
+  }
+  /* profile picture 
+  .grid-one {
+ padding: 0.5rem;
+  }
+  
 .img-profile { 
-  padding:2rem;
+ padding:2rem;
 }
 
 */

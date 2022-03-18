@@ -115,9 +115,9 @@ a span {
 */
 
 
-/*Styling Hamburger Icon*/
+/*Styling  Icon*/
 
-.hamburger div {
+. div {
     width: 30px;
     height: 3px;
     background: #f2f5f7;
@@ -126,7 +126,7 @@ a span {
     background: var(--font-color);
 }
 
-.hamburger {
+. {
     display: none;
 }
 
@@ -166,7 +166,7 @@ a span {
         z-index: 10;
         font-weight: bold;
     }
-    .hamburger {
+    . {
         display: block;
         position: absolute;
         cursor: pointer;
@@ -228,7 +228,7 @@ a span {
 }
 
 
-/*Animating Hamburger Icon on Click*/
+/*Animating  Icon on Click*/
 
 .toggle .line1 {
     transform: rotate(-45deg) translate(-5px, 6px);

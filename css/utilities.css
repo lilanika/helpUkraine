@@ -33,7 +33,7 @@ button {
     cursor: pointer;
     margin-right: 0.5rem;
     transition: opacity 0.2s ease-in;
-    out: none;
+    outline: none;
     border: none;
 }
 
@@ -70,10 +70,10 @@ button {
 
 /*
 .btn-white,
-.   bg-white  {
-    background: #fff;
-    color: #333;
-    /* border: rgb(228, 228, 228) solid 1px; 
+. bg-white animation  {
+  background: #fff;
+  color: #333;
+  /* border: rgb(228, 228, 228) solid 1px; 
 
 
 */
